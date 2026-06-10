@@ -1,0 +1,9 @@
+2026-06-10 16:14:04.680137 | IP: 127.0.0.1 | Payload: OR 1=1 | Result: SQL Injection Detected
+2026-06-10 16:14:18.515518 | IP: 127.0.0.1 | Payload: <script>alert(1)</script> | Result: XSS Attack Detected
+2026-06-10 16:19:31.023510 | IP: 127.0.0.1 | Payload: hello; ls | Result: Command Injection Detected
+2026-06-10 16:19:50.264127 | IP: 127.0.0.1 | Payload: hello && whoami | Result: Command Injection Detected
+2026-06-10 16:20:47.429859 | IP: 127.0.0.1 | Payload: hello | Result: Safe Request
+2026-06-10 16:20:53.692023 | IP: 127.0.0.1 | Payload: hello | Result: Safe Request
+2026-06-10 16:20:57.828316 | IP: 127.0.0.1 | Payload: hello | Result: Safe Request
+2026-06-10 16:21:03.646208 | IP: 127.0.0.1 | Payload: hello | Result: Rate Limit Exceeded
+2026-06-10 16:21:10.107750 | IP: 127.0.0.1 | Payload: hello | Result: Rate Limit Exceeded
